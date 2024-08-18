@@ -1,15 +1,19 @@
 {
-  "name": "my-express-app",
+  "name": "express-graphql",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "express": "^4.17.1",
-    "mysql":"^2.18.1",
     "cors": "^2.8.5",
-    "node-fetch": "^2.6.1"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.3.2"
   }
 }
-
